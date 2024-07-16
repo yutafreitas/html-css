@@ -1,3 +1,3 @@
 # html-css
 
-Estou aprendendo a criar sites e agora vou gerenciar repositorios
+vou aprender a gerenciar repositorios

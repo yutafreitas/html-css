@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mesclagem de Células</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        .cabecalho{
+            text-align: left;
+        }
+        td{
+           border: 2px solid #000;
+           padding: 10px; 
+           text-align: center;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+        }
+        
+    </style>
+  </head>
+  <body>
+    <h1>Mesclagem de Células</h1>
+    <table>
+        <tr>
+            <td colspan="5" class="cabecalho"><strong>Faculdade:</strong> Estacio</td>
+        </tr>
+        <tr>
+            <td colspan="5" class="cabecalho"><strong>Nome:</strong> Yutá Freitas De Lima</td>
+        </tr>
+        <tr>
+            <td>Componentes Curriculares</td>
+            <td colspan="5">Notas</td>
+        </tr>
+        <tr>
+            <td>Português</td>
+            <td>6</td>
+            <td>7</td>
+            <td>5</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Matemática</td>
+            <td>10</td>
+            <td>5</td>
+            <td>7</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>CiÊncias</td>
+            <td>5</td>
+            <td>3</td>
+            <td>10</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>História</td>
+            <td>10</td>
+            <td>9</td>
+            <td>3</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Geografia</td>
+            <td>8</td>
+            <td>5</td>
+            <td>7</td>
+            <td>10</td>
+        </tr>
+    </table>
+  </body>
+</html>
